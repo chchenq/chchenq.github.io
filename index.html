@@ -13,45 +13,51 @@
     <style>
         html {
             scroll-behavior: smooth;
-
+            margin:0;
+            padding:0;
         }
 
         body {
             box-sizing: border-box;
-
             position: relative;
+            margin:0;
+            padding:0;
         }
 
         a {
-
             display: flex;
-
+            cursor:pointer;
         }
-
 
         .upicon {
             width: 50px;
             height: 50px;
-            background-image: url('/final pic/upicon.png');
+            background-image: url('./final pic/upicon.png');
             background-size: cover;
-            right: 20px;
+            right: 50px;
             bottom: 200px;
             border-radius: 50%;
             position: fixed;
+            cursor:pointer;
         }
 
         .nav {
             width: 100%;
             height: 173px;
             margin: auto;
-            background-image: url('/final pic/4770.jpg');
+            background-image: url('./final pic/red-damask-wallpaper7.jpg');
             background-size: cover;
             /* opacity: 0.8;*/
 
         }
 
+        .nav-btn-group-all {
+            margin: auto;
+        }
+
         .nav-btn-group {
-            height: 100%;
+            /*height: 100%*/
+            ;
             margin: auto;
             display: flex;
             justify-content: space-around;
@@ -67,13 +73,14 @@
             font-family: 'Crimson Text';
             writing-mode: vertical-rl;
             text-align: center;
+            cursor:pointer;
         }
 
         .nav-btn-eng:hover {
             text-decoration: none;
             font-size: 14px;
             color: yellow;
-        }
+          }
 
         .nav-btn {
             width: 80px;
@@ -99,7 +106,7 @@
             width: 202px;
             height: 157px;
             margin: auto;
-            background-image: url('/final pic/Chen beef noodles shop logo.png');
+            background-image: url('./final pic/Chen beef noodles shop logo.png');
             background-size: cover;
             margin-left: 50px;
             opacity: 1;
@@ -145,6 +152,7 @@
             text-align: center;
             font-weight: 700;
             margin-bottom: 10px;
+            text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
         }
 
         .about-top {
@@ -159,7 +167,7 @@
         .about-oldchen-pic {
             width: 438.24px;
             height: 372px;
-            background-image: url('/final pic/oldchef.png');
+            background-image: url('./final pic/oldchef.png');
             background-size: cover;
             margin-right: 50px;
 
@@ -225,7 +233,7 @@
         .meals-fullpage {
             width: 100%;
             height: 448px;
-            background-image: url('/final pic/4770.jpg');
+            background-image: url('./final pic/red-damask-wallpaper7.jpg');
             background-size: cover;
             margin-top: 100px;
         }
@@ -239,6 +247,7 @@
             text-align: center;
             font-weight: 700;
             margin-bottom: 10px;
+            text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
         }
 
         .meals-tags {
@@ -369,7 +378,7 @@
             padding-top: 5px;
             text-align: center;
         }
-
+ /*食材特色*/
         .content-ingr {
             width: 100%;
             font-size: 48px;
@@ -379,9 +388,10 @@
             text-align: center;
             font-weight: 700;
             margin-bottom: 10px;
+            text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
         }
 
-        /*食材特色*/
+       
         .ingr-container-top {
             width: 1140px;
             height: 520px;
@@ -411,31 +421,35 @@
         .ingr-pic-1 {
             width: 540px;
             height: 480px;
-            background-image: url('/final pic/牛肉.jpg');
-            background-size:cover;
-            z-index:9999;
+            background-image: url('./final pic/牛肉.jpg');
+            background-size: cover;
+            z-index: 9999;
         }
+
         .ingr-pic-2 {
             width: 540px;
             height: 480px;
-            background-image: url('/final pic/湯頭.jpg');
-            background-size:cover;
-            z-index:9999;
+            background-image: url('./final pic/湯頭.jpg');
+            background-size: cover;
+            z-index: 9999;
         }
+
         .ingr-pic-3 {
             width: 540px;
             height: 480px;
-            background-image: url('/final pic/麵條.jpg');
-            background-size:cover;
-            z-index:9999;
+            background-image: url('./final pic/麵條.jpg');
+            background-size: cover;
+            z-index: 9999;
         }
+
         .ingr-pic-4 {
             width: 540px;
             height: 480px;
-            background-image: url('/final pic/酸菜.jpg');
-            background-size:cover;
-            z-index:9999;
+            background-image: url('./final pic/酸菜.jpg');
+            background-size: cover;
+            z-index: 9999;
         }
+
         .mask {
             width: 100%;
             height: 100%;
@@ -447,49 +461,53 @@
             background-color: rgba(255, 255, 255, 0);
             border: gold 1px solid;
             transition: 0.3s;
-            z-index:9999;
+            z-index: 9999;
         }
 
         .ingr-content-1 {
             width: 445px;
             margin: auto;
-            color:black;
+            color: black;
             background-color: rgba(59, 42, 25, 0.2);
-            padding:50px;
+            padding: 50px;
             font-size: 18px;
             font-weight: 200;
             font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
         }
+
         .ingr-content-2 {
             width: 445px;
             margin: auto;
-            color:black;
+            color: black;
             background-color: rgba(59, 42, 25, 0.2);
-            padding:50px;
+            padding: 50px;
             font-size: 18px;
             font-weight: 200;
             font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
         }
+
         .ingr-content-3 {
             width: 445px;
             margin: auto;
-            color:black;
+            color: black;
             background-color: rgba(59, 42, 25, 0.2);
-            padding:50px;
+            padding: 50px;
             font-size: 18px;
             font-weight: 200;
             font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
         }
+
         .ingr-content-4 {
             width: 445px;
             margin: auto;
-            color:black;
+            color: black;
             background-color: rgba(59, 42, 25, 0.2);
-            padding:50px;
+            padding: 50px;
             font-size: 18px;
             font-weight: 200;
             font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
         }
+
         .ingr-name {
             font-size: 26px;
             text-align: center;
@@ -499,7 +517,7 @@
         .chef-fullpage {
             width: 100%;
             height: 600px;
-            background-image: url('/final pic/4770.jpg');
+            background-image: url('./final pic/red-damask-wallpaper7.jpg');
             background-size: cover;
             margin-top: 100px;
         }
@@ -513,59 +531,66 @@
             text-align: center;
             font-weight: 700;
             margin-bottom: 10px;
+            text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
         }
+
         .chef-container {
-            width:1140px;
-            height:497px;
-            margin:auto;
+            width: 1140px;
+            height: 497px;
+            margin: auto;
             /*background-color:yellow;*/
-            position:relative;
-           
+            position: relative;
+
         }
-        .chef-pic-1{
-            width:349.65px;
-            height:291.82px;
-            background-image:url('/final pic/米其林.png');
-            background-size:cover;
-            position:absolute;
-            bottom:0px;
+
+        .chef-pic-1 {
+            width: 349.65px;
+            height: 291.82px;
+            background-image: url('./final pic/米其林.png');
+            background-size: cover;
+            position: absolute;
+            bottom: 0px;
         }
-        .chef-pic-2{
-            width:234.92px;
-            height:202.17px;
-            background-image:url('/final pic/new chef pic.png');
-            background-size:cover;
-            position:absolute;
-            
-            left:267.575px;
-            bottom:188.43px;
+
+        .chef-pic-2 {
+            width: 234.92px;
+            height: 202.17px;
+            background-image: url('./final pic/new chef pic.png');
+            background-size: cover;
+            position: absolute;
+
+            left: 267.575px;
+            bottom: 188.43px;
         }
-        .chef-intro{
-            width:334px;
-            height:288.67px;
-            background-image:url('/final pic/chef intro.png');
-            background-image:url('/final pic/chef intro.png');
-            background-image:url('/final pic/chef intro.png');
-            background-size:cover;
-            position:absolute;
-            
-            left:423.871px;
-            bottom:0px;
-            z-index:9999;
+
+        .chef-intro {
+            width: 334px;
+            height: 288.67px;
+            background-image: url('./final pic/chef intro.png');
+            background-image: url('./final pic/chef intro.png');
+            background-image: url('./final pic/chef intro.png');
+            background-size: cover;
+            position: absolute;
+
+            left: 423.871px;
+            bottom: 0px;
+            z-index: 9999;
         }
-        .chef-record{
-            width:417.33px;
-            height:359.33px;
-            background-image:url('/final pic/chef record.png');
-            background-image:url('/final pic/chef record.png');
-            background-image:url('/final pic/chef record.png');
-            background-size:cover;
-            position:absolute;
-            
-            left:659.248px;
-            bottom:144.325px;
-            z-index:9999;
+
+        .chef-record {
+            width: 417.33px;
+            height: 359.33px;
+            background-image: url('./final pic/chef record.png');
+            background-image: url('./final pic/chef record.png');
+            background-image: url('./final pic/chef record.png');
+            background-size: cover;
+            position: absolute;
+
+            left: 659.248px;
+            bottom: 144.325px;
+            z-index: 9999;
         }
+
         .content-news {
             width: 100%;
             font-size: 48px;
@@ -575,131 +600,144 @@
             text-align: center;
             font-weight: 700;
             margin-bottom: 10px;
+            text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
         }
-        .news-container{
-            width:1140px;
-            height:542px;
-           /* background-color: palevioletred;*/
-            margin:auto;
-            display:flex;
+
+        .news-container {
+            width: 1140px;
+            height: 542px;
+            /* background-color: palevioletred;*/
+            margin: auto;
+            display: flex;
             justify-content: space-around;
         }
-        .news-his{
-            width:473px;
-            height:100%;
-            background-color:#EAE8E8;
-            position:relative;
+
+        .news-his {
+            width: 473px;
+            height: 100%;
+            background-color: #EAE8E8;
+            position: relative;
             border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 5px #888888;
+            padding: 10px;
+            box-shadow: 5px 5px #888888;
         }
-        .news-his-line{
-            width:20px;
-            height:100%;
-            background-image: url('/final pic/news-line.png');
-            background-size:cover;
-            position:absolute;
-            left:73px;
+
+        .news-his-line {
+            width: 20px;
+            height: 100%;
+            background-image: url('./final pic/news-line.png');
+            background-size: cover;
+            position: absolute;
+            left: 73px;
         }
-        .news-his-words-1{
-            width:318px;
-            height:72px;
-            font-size:18px;
-            line-height:0.8;
-            text-align:left;
+
+        .news-his-words-1 {
+            width: 318px;
+            height: 72px;
+            font-size: 18px;
+            line-height: 0.8;
+            text-align: left;
             /*background-color:blue;*/
-            position:absolute;
-            right:40px;
-            top:72px;
+            position: absolute;
+            right: 40px;
+            top: 72px;
             font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
         }
-        .news-his-words-2{
-            width:318px;
-            height:72px;
-            font-size:18px;
-            line-height:0.8;
-            text-align:left;
+
+        .news-his-words-2 {
+            width: 318px;
+            height: 72px;
+            font-size: 18px;
+            line-height: 0.8;
+            text-align: left;
             /*background-color:blue;*/
-            position:absolute;
-            right:40px;
-            top:154px;
+            position: absolute;
+            right: 40px;
+            top: 154px;
             font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
         }
-        .news-his-words-3{
-            width:318px;
-            height:72px;
-            font-size:18px;
-            line-height:0.9;
-            text-align:left;
+
+        .news-his-words-3 {
+            width: 318px;
+            height: 72px;
+            font-size: 18px;
+            line-height: 0.9;
+            text-align: left;
             /*background-color:blue;*/
-            position:absolute;
-            right:40px;
-            top:236px;
+            position: absolute;
+            right: 40px;
+            top: 236px;
             font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
         }
-       .news-his-words-4{
-            width:318px;
-            height:72px;
-            font-size:18px;
-            line-height:0.8;
-            text-align:left;
+
+        .news-his-words-4 {
+            width: 318px;
+            height: 72px;
+            font-size: 18px;
+            line-height: 0.8;
+            text-align: left;
             /*background-color:blue;*/
-            position:absolute;
-            right:40px;
-            top:318px;
+            position: absolute;
+            right: 40px;
+            top: 318px;
             font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
         }
-        .news-his-words-5{
-            width:318px;
-            height:72px;
-            font-size:18px;
-            line-height:0.8;
-            text-align:left;
+
+        .news-his-words-5 {
+            width: 318px;
+            height: 72px;
+            font-size: 18px;
+            line-height: 0.8;
+            text-align: left;
             /*background-color:blue;*/
-            position:absolute;
-            right:40px;
-            top:400px;
+            position: absolute;
+            right: 40px;
+            top: 400px;
             font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
         }
-        .news-vedio{
-            width:570px;
-            height:100%;
-            background-color:#EAE8E8;
-            display:flex;
+
+        .news-vedio {
+            width: 570px;
+            height: 100%;
+            background-color: #EAE8E8;
+            display: flex;
             flex-direction: column;
             justify-content: space-around;
             border: 1px solid;
             padding: 10px;
             box-shadow: 5px 5px #888888;
         }
-        .news-vedio-container{
-            width:452px;
-            height:158px;
+
+        .news-vedio-container {
+            width: 452px;
+            height: 158px;
             /*background-color:red;*/
-            margin:auto;
-            display:flex;
-            justify-content:space-between;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
         }
-        .news-vedio-youtobe{
-            width:224px;
-            height:158px;
+
+        .news-vedio-youtobe {
+            width: 224px;
+            height: 158px;
             /*background-color: blue;*/
         }
-.news-vedio-name{
-    width:200px;
-    height:40px;
-    /*background-color: white;*/
-    text-align:left;
-    margin:auto;
-    font-size:18px;
-    font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
-}
 
-/* Popup box BEGIN */
-.location-fullpage {
+        .news-vedio-name {
+            width: 200px;
+            height: 40px;
+            /*background-color: white;*/
+            text-align: left;
+            margin: auto;
+            font-size: 18px;
+            font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
+        }
+
+        /* Popup box BEGIN */
+        .location-fullpage {
             width: 100%;
             height: 1800px;
-            background-image: url('/final pic/4770.jpg');
+            background-image: url('./final pic/red-damask-wallpaper7.jpg');
             background-size: cover;
             margin-top: 100px;
         }
@@ -713,57 +751,586 @@
             text-align: center;
             font-weight: 700;
             margin-bottom: 10px;
-            
+            text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
 
         }
-        .location-container{
-            width:1140px;
-            height:1670px;
-            background-color: yellow;
-            margin:auto;
-            display:flex;
+
+        .location-container {
+            width: 1140px;
+            height: 1670px;
+            /* background-color: yellow;*/
+            margin: auto;
+            display: flex;
             flex-direction: column;
             justify-content: space-around;
-            
+
         }
-        .box-location{
-            width:1140px;
-            height:530px;
-            background-color:gray;
-            display:flex;
+
+        .box-location {
+            width: 1140px;
+            height: 530px;
+            /*background-color:gray;*/
+            display: flex;
             justify-content: space-around;
         }
-        .location-info{
-            width:475px;
-            height:530px;
-            background-color:white;
-            border:solid 1px black;
+
+        .location-info {
+            width: 475px;
+            height: 530px;
+            background-color: white;
+            border: solid 1px black;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 5px 5px #888888;
+        }
+
+        .location-map {
+            width: 570px;
+            height: 530px;
+            /*background-color:red;*/
+            border: solid 1px black;
+            box-shadow: 5px 5px #888888;
+
+        }
+
+        .location-info-pic1 {
+            width: 345px;
+            height: 345px;
+
+            background-image: url('./final pic/newchenbeefnoodlestore.png');
+            background-size: cover;
+
+        }
+
+        .location-info-pic2 {
+            width: 345px;
+            height: 345px;
+
+            background-image: url('./final pic/taipeistore.jpg');
+            background-size: cover;
+        }
+
+        .location-info-pic3 {
+            width: 345px;
+            height: 345px;
+
+            background-image: url('./final pic/k aostore.jpg');
+            background-size: cover;
+        }
+
+        .location-info-name {
+            width: 345px;
+            height: 130px;
+            /* background-color: palegreen;*/
+            font-size: 20px;
+            font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
+            font-weight: 700;
+        }
+
+        .content-res {
+            width: 100%;
+            font-size: 48px;
+
+            margin-top: 100px;
+            font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+        }
+
+        .res-container {
+            width: 1140px;
+            height: 300px;
+            /*background-color: yellow;*/
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .res-text {
+            width: 474px;
+            height: 300px;
+            background-color: white;
+            border: solid 2px black;
+            font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
+            box-shadow: 5px 5px #888888;
+        }
+
+        .res-box {
+            width: 568px;
+            height: 300px;
+            background-color: white;
+            border: solid 2px black;
+            box-shadow: 5px 5px #888888;
+        }
+
+        .reservation_boxl {
+            width: 50%;
+            height: 80%;
+            float: left;
+            padding-top: 50px;
+            font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
+
+        }
+
+        .reservation_boxr {
+            width: 50%;
+            height: 80%;
+            float: right;
+            padding-top: 50px;
+            font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
+        }
+
+        .reservation_button1 {
+            width: 90px;
+            height: 30px;
+            text-align: center;
+            color: white;
+            background-color: #8c6239;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .reservation_button2 {
+            width: 90px;
+            height: 30px;
+            text-align: center;
+            color: white;
+            background-color: #8c6239;
+            float: left;
+        }
+
+        .join-fullpage {
+            width: 100%;
+            height: 1260px;
+            background-image: url('./final pic/red-damask-wallpaper7.jpg');
+            background-size: cover;
+            margin-top: 100px;
+        }
+
+        .content-join {
+            width: 100%;
+            font-size: 48px;
+            color: white;
+            margin-top: 100px;
+            font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+        }
+
+        .join-container {
+            width: 1100px;
+            height: 1050px;
+            /*background-color:yellow;*/
+            position: relative;
+            margin: auto;
+        }
+
+        .join-flow {
+            width: 780px;
+            height: 896px;
+            background-image: url('./final pic/flow.png');
+            background-size: cover;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+        .join-education {
+            width: 475px;
+            height: 480px;
+            background-color: white;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            font-size: 18px;
+            border: solid 1px black;
+            box-shadow: 5px 5px #888888;
+
+        }
+
+        .join-education-text {
+            width: 375px;
+            height: 480px;
+            margin: auto;
+            align-items: center;
+        }
+
+        .footer {
+            width: 100%;
+            height: 200px;
+            background-color: rgb(66, 3, 3);
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .media-link {
+            width: 324px;
+            height: 94px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+
+        .media-link-1 {
+            width: 94px;
+            height: 94px;
+            background-image: url('./final pic/facebook-logo.png');
+            background-size: cover;
+        }
+
+        .media-link-2 {
+            width: 94px;
+            height: 94px;
+            background-image: url('./final pic/Instagram-logo.png');
+            background-size: cover;
+        }
+
+        .media-link-3 {
+            width: 94px;
+            height: 94px;
+            background-image: url('./final pic/LINE.png');
+            background-size: cover;
+        }
+
+        .copyright {
+            width: 100%;
+            height: 20px;
+            text-align: center;
+            color: white;
+            padding-bottom: 10px;
+        }
+
+        .pc {
+            display: block;
+        }
+
+        .ipad {
+            display: none;
+        }
+
+        /*RWD Width:1140px~768px以下*/
+        @media (max-width:1140px) {
+            .pc {
+                display: none;
+            }
+
+            .ipad {
+                display: block;
+            }
+
+            /*nav漢堡條*/
+            .nav {
+                height: 72px;
+            }
+
+            .logo {
+                width: 158px;
+                height: 62px;
+                background-image: url('./final pic/Chen beef noodles shop log橫式.png');
+                background-size: cover;
+            }
+
+            .ham {
+                width: 100%;
+                display: flex;
+            }
+
+            .hamber {
+                width: 68px;
+                height: 68px;
+                /*background-color: black;*/
+                margin-right: 50px;
+                margin-top: 2px;
+                position: relative;
+                background-image: url('./final pic/hambergur.png');
+                background-size: cover;
+              
+            }
+            
+            .hamber ul {
+                display:none;
+                position: absolute;
+                top: 72px;
+                left:-30px;
+                /*left: 500px;*/
+                /* background: chocolate;*/
+                width: 120px;
+                transition: 1s;
+                z-index: 9999;
+                margin-left: -10px;
+               /*overflow:hidden;*/
+
+            }
+
+            .hamber ul li {
+             
+                background-image: url('./final pic/red-damask-wallpaper7.jpg');
+                background-size: cover;
+                padding: 5px 0;
+                list-style: none;
+                border: solid 1px black;
+               overflow:hidden;
+                color: white;
+                font-size: 18px;
+                font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
+            }
+
+            .hamber ul li:hover {
+                background-color: pink;
+                display:block;
+                color: yellow;
+            }
+
+            .hamber:hover ul {
+                display:block;
+                left: -30px;
+            }
+
+          
+            /*banner*/
+            #banner {
+                height: 363px;
+            }
+
+            /*banner*/
+            /*關於老陳*/
+            .about-top {
+                width: 100%;
+                height: 750px;
+
+                flex-direction: column;
+            }
+
+            .about-oldchen-pic {
+                margin: auto;
+            }
+
+            .about-oldchen-story {
+                margin: auto;
+            }
+
+            .about-bot {
+                width: 100%;
+                height: 650px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .about-store-his {
+                margin: auto;
+            }
+
+            .about-store-his-time {
+                width: 133.18px;
+                font-size: 18px;
+                line-height: 14px;
+                text-align: left;
+                float: left;
+                clear: both;
+                padding-bottom: 14px;
+            }
+
+            .about-store-his-content {
+                width: 407.42px;
+                font-size: 18px;
+                line-height: 14px;
+                text-align: left;
+                float: left;
+                padding-bottom: 14px;
+            }
+
+            .about-store-pic {
+
+                margin: auto;
+                padding-top: 10px;
+            }
+            /*菜單介紹*/
+            .meals-fullpage {
+            height: 400px;
+        }
+            .content-meals {
+            width: 100%;
+            font-size: 48px;
+            color: white;
+            margin-top: 100px;
+            font-family: 標楷體, DFKai-sb, BiauKai, 'AR PL UKai TW', "ヒラギノ明朝 ProN W6", 微軟正黑體;
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .meals-tags {
+            width: 100%;
+            height: 60px;
+            margin: auto;
+        }
+        a.tabs-menu {
+            font-size: 16px;
+            padding: 2px 70px;
+        }
+        .menublock {
+            width: 145px;
+            height: 130px;
+            /*background-color:blue;*/
+            float: left;
+            margin: 0 15px;
+            margin-top: 10px;
+        }
+
+        .menublockpic {
+            width: 145px;
+            height: 130px;
+            background-size: cover;
+        }
+        .tabs-panel {
            
-            display:flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items:center;
+            height: 220px;
+            padding: 10px;
+            /*max-height: 200px;*/
         }
-        .location-map{
-            width:570px;
-            height:530px;
-            background-color:red;
-            border:solid 1px black;
+/*食材特色*/
+        .ingr-container-top {
+            width: 100%;
+            height:1200px;
+            flex-direction:column;
+            justify-content: none;
+            margin-bottom: 50px;
             
         }
-        .location-info-pic{
-            width:345px;
-            height:345px;
-            background-color:purple;
-            
-        }
-        .location-info-name{
-            width:345px;
-            height:150px;
-            background-color: palegreen;
-        }
-        #location-1 .location-info-pic
 
+        .ingr-container-bot {
+            width: 100%;
+            height: 1040px;
+            /*background-color:yellow;*/
+            margin: auto;
+            flex-direction:column;
+            justify-content: none;
+            margin-bottom: 50px;
+        }
+        .ingr-box{
+            margin:auto;
+            margin-bottom: 50px;
+        }
+        /*料理達人*/
+        .chef-fullpage{
+            height:1000px;
+        }
+        .chef-container{
+            width: 100%;
+            height: 1000px;
+            margin: auto;
+            position:unset;
+
+        }
+        .chef-pic-1{
+        display:none;
+
+        }
+        .chef-pic-2{
+            position:unset;  
+            margin:auto;
+            margin-top:20px;
+          
+        }
+        .chef-intro{
+            position:unset;
+            margin:auto;
+            margin-top:20px;
+           
+        }
+        .chef-record{
+            position:unset;   
+            margin:auto;  
+            margin-top:20px; 
+        }
+ /*最新消息*/
+ .news-container {
+            width: 100%;
+            height: 1100px;
+                 margin: auto;
+           display: flex;
+            flex-direction:column;
+        }
+        .news-his {
+            margin:auto;
+        }
+        .news-vedio {
+            margin:auto;
+            margin-top:50px;
+        }
+/*交通位置*/
+.location-container {
+            width: 100%;
+            height: 1670px;
+                 }
+                 .location-info {
+                     margin:auto;
+                 }
+                 .box-location{
+                     width:100%;
+                 }
+                 .location-map {
+                     display:none;
+                 }    
+                 .google-map{
+                     border:solid 1px black;
+                     background-color:blue;
+                     color:white;
+                     cursor:pointer;
+                 }  
+                 .google-map:hover{
+                     color:yellow;
+                     background-color:red;
+                     cursor:pointer;
+                 }
+/*網路訂位*/
+                 .res-container {
+            width: 100%;
+            height: 650px;
+            flex-direction:column;
+        }
+        .res-text {
+            margin:auto;
+        }
+        .res-box{
+            margin:auto;
+        }
+/*加盟專區*/
+.join-fullpage{
+    height:1470px;
+}
+.join-container {
+    width: 100%;           
+            height: 1370px;
+    position:unset;
+    display:flex;
+    flex-direction:column;
+}
+
+       
+        .join-flow{
+            width:100%;
+            margin:auto;
+            position:unset;
+            margin-bottom:50px;
+
+        }
+        .join-education{
+            margin:auto;
+            position:unset;
+            margin-bottom:50px;
+        }
+        }
     </style>
 </head>
 
@@ -773,61 +1340,108 @@
     </a>
     <!--nav-->
     <div class="nav">
-        <div class="nav-btn-group">
-            <a href="#about" data-scroll="" style="text-decoration: none;">
-                <div class="nav-btn">關於老陳</div>
-                <div class="nav-btn-eng">ABOUT</div>
-            </a>
-            <a href="#meals" data-scroll="" style="text-decoration: none;">
-                <div class="nav-btn">菜單介紹</div>
-                <div class="nav-btn-eng">MEALS</div>
-            </a>
-            <a href="#ingr" data-scroll="" style="text-decoration: none;">
-                <div class="nav-btn">食材特色</div>
-                <div class="nav-btn-eng">INGREDIENTS</div>
-            </a>
-            <a href="#chef" data-scroll="" style="text-decoration: none;">
-                <div class="nav-btn">料理達人</div>
-                <div class="nav-btn-eng">CHEF</div>
-            </a>
-            <a href="" data-scroll="" style="text-decoration: none;">
-                <div class="logo"></div>
-            </a>
-            <a href="#news" data-scroll="" style="text-decoration: none;">
-                <div class="nav-btn">最新消息</div>
-                <div class="nav-btn-eng">NEWS</div>
-            </a>
-            <a href="#location" data-scroll="" style="text-decoration: none;">
-                <div class="nav-btn">交通位置</div>
-                <div class="nav-btn-eng">LOCATIONS</div>
-            </a>
-            <a href="" data-scroll="" style="text-decoration: none;">
-                <div class="nav-btn">網路訂位</div>
-                <div class="nav-btn-eng">RESERVATION</div>
-            </a>
-            <a href="" data-scroll="" style="text-decoration: none;">
-                <div class="nav-btn">加盟專區</div>
-                <div class="nav-btn-eng">JOIN US</div>
-            </a>
+        <div class="nav-btn-group-all pc">
+            <div class="nav-btn-group">
+                <a href="#about" data-scroll="" style="text-decoration: none;">
+                    <div class="nav-btn">關於老陳</div>
+                    <div class="nav-btn-eng">ABOUT</div>
+                </a>
+                <a href="#meals" data-scroll="" style="text-decoration: none;">
+                    <div class="nav-btn">菜單介紹</div>
+                    <div class="nav-btn-eng">MEALS</div>
+                </a>
+                <a href="#ingr" data-scroll="" style="text-decoration: none;">
+                    <div class="nav-btn">食材特色</div>
+                    <div class="nav-btn-eng">INGREDIENTS</div>
+                </a>
+                <a href="#chef" data-scroll="" style="text-decoration: none;">
+                    <div class="nav-btn">料理達人</div>
+                    <div class="nav-btn-eng">CHEF</div>
+                </a>
+                <a href="" data-scroll="" style="text-decoration: none;">
+                    <div class="logo"></div>
+                </a>
+                <a href="#news" data-scroll="" style="text-decoration: none;">
+                    <div class="nav-btn">最新消息</div>
+                    <div class="nav-btn-eng">NEWS</div>
+                </a>
+                <a href="#location" data-scroll="" style="text-decoration: none;">
+                    <div class="nav-btn">交通位置</div>
+                    <div class="nav-btn-eng">LOCATIONS</div>
+                </a>
+                <a href="#res" data-scroll="" style="text-decoration: none;">
+                    <div class="nav-btn">網路訂位</div>
+                    <div class="nav-btn-eng">RESERVATION</div>
+                </a>
+                <a href="#join" data-scroll="" style="text-decoration: none;">
+                    <div class="nav-btn">加盟專區</div>
+                    <div class="nav-btn-eng">JOIN US</div>
+                </a>
+            </div>
+        </div>
+        <div class="ham ipad">
+            <div class="logo"></div>
+            <div class="hamber">
+                <ul>
+                    <a href="#about" style="text-decoration: none;">
+                        <li>關於老陳</li>
+                    </a><a href="#meals" style="text-decoration: none;">
+                        <li>菜單介紹</li>
+                    </a><a href="#ingr" style="text-decoration: none;">
+                        <li>食材特色</li>
+                    </a><a href="#chef" style="text-decoration: none;">
+                        <li>料理達人</li>
+                    </a><a href="#news" style="text-decoration: none;">
+                        <li>最新消息</li>
+                    </a><a href="#location" style="text-decoration: none;">
+                        <li>交通位置</li>
+                    </a><a href="#res" style="text-decoration: none;">
+                        <li>網路訂位</li>
+                    </a><a href="#join" style="text-decoration: none;">
+                        <li>加盟專區</li>
+                    </a>
+                </ul>
+            </div>
         </div>
     </div>
     <!--banner 輪播-->
-    <div id="banner" class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="/final pic/banner-beef noodle pic-1-01.png" alt="" height="607px"
-                    width="100%"></div>
-            <div class="swiper-slide"><img src="/final pic/banner-beef noodle pic-2-01.png" alt="" height="607px"
-                    width="100%"></div>
-            <div class="swiper-slide"><img src="/final pic/banner-beef noodle pic-3-01.png" alt="" height="607px"
-                    width="100%"></div>
-            <div class="swiper-slide"><img src="/final pic/banner-beef noodle pic-4-01.png" alt="" height="607px"
-                    width="100%"></div>
+    <div class="banner-all pc">
+        <div id="banner" class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./final pic/banner-beef noodle pic-1-01.png" alt="" height="607px"
+                        width="100%"></div>
+                <div class="swiper-slide"><img src="./final pic/banner-beef noodle pic-2-01.png" alt="" height="607px"
+                        width="100%"></div>
+                <div class="swiper-slide"><img src="./final pic/banner-beef noodle pic-3-01.png" alt="" height="607px"
+                        width="100%"></div>
+                <div class="swiper-slide"><img src="./final pic/banner-beef noodle pic-5-01.png" alt="" height="607px"
+                        width="100%"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+    </div>
+    <div class="banner-all ipad">
+        <div id="banner" class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./final pic/banner-beef noodle pic-1-01.png" alt="" height="363px"
+                        width="100%"></div>
+                <div class="swiper-slide"><img src="./final pic/banner-beef noodle pic-2-01.png" alt="" height="363px"
+                        width="100%"></div>
+                <div class="swiper-slide"><img src="./final pic/banner-beef noodle pic-3-01.png" alt="" height="363px"
+                        width="100%"></div>
+                <div class="swiper-slide"><img src="./final pic/banner-beef noodle pic-5-01.png" alt="" height="363px"
+                        width="100%"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
     </div>
     <!--關於老陳-->
     <div class="about-fullpage">
@@ -873,9 +1487,9 @@
             <div class="about-store-pic">
                 <div id="store" class="swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="/final pic/oldchenbeefnoodlestore.png" alt=""
+                        <div class="swiper-slide"><img src="./final pic/oldchenbeefnoodlestore.png" alt=""
                                 height="326.8px" width="515.7px"></div>
-                        <div class="swiper-slide"><img src="/final pic/newchenbeefnoodlestore.png" alt=""
+                        <div class="swiper-slide"><img src="./final pic/newchenbeefnoodlestore.png" alt=""
                                 height="326.8px" width="515.7px"></div>
                     </div>
                     <!-- Add Pagination -->
@@ -889,8 +1503,99 @@
     </div>
     <div class="meals-fullpage">
         <div id="meals" class="content-meals">菜單介紹</div>
-        <div class="meals-tags">
+        <div class="meals-tags pc">
             <!--菜單頁籤-->
+            
+                <div class="tabs-container pc">
+                    <div id="js-tabs" style="width:auto">
+
+                        <div id="tabs-nav">
+                            <a href="#tab0" onclick="jsTabs(event,'tab0');return false"
+                                class="tabs-menu tabs-menu-active">牛肉麵</a>
+                            <a href="#tab1" onclick="jsTabs(event,'tab1');return false" class="tabs-menu">湯類</a>
+                            <a href="#tab2" onclick="jsTabs(event,'tab2');return false" class="tabs-menu">小菜</a>
+                            <a href="#tab3" onclick="jsTabs(event,'tab3');return false" class="tabs-menu">飲料</a>
+                        </div>
+                    <div id="tab0" class="tabs-panel" style="display:block">
+                        <div class="menublock">
+                            <div id="beefnoodle-1" class="menublockpic"><img src="./final pic/紅燒.png" alt=""
+                                    height="198px" width="219px"></div>
+                            <div id="beefname-1" class="menuname">紅燒</div>
+                        </div>
+                        <div class="menublock">
+                            <div id="beefnoodle-2" class="menublockpic"><img src="./final pic/清燉.png" alt=""
+                                    height="198px" width="219px"></div>
+                            <div id="beefname-2" class="menuname">清燉</div>
+                        </div>
+                        <div class="menublock">
+                            <div id="beefnoodle-3" class="menublockpic"><img src="./final pic/麻辣.png" alt=""
+                                    height="198px" width="219px"></div>
+                            <div id="beefname-3" class="menuname">麻辣</div>
+                        </div>
+                        <div class="menublock">
+                            <div id="beefnoodle-4" class="menublockpic"><img src="./final pic/乾拌.png" alt=""
+                                    height="198px" width="219px"></div>
+                            <div id="beefname-4" class="menuname">乾拌</div>
+                        </div>
+                    </div>
+
+                    <div id="tab1" class="tabs-panel">
+                        <div class="menublock">
+                            <div id="soup-1" class="menublockpic"><img src="./final pic/味增湯.png" alt="" height="198px"
+                                    width="219px"></div>
+                            <div id="soupname-1" class="menuname">味增湯</div>
+                        </div>
+                        <div class="menublock">
+                            <div id="soup-2" class="menublockpic"><img src="./final pic/餛飩湯.png" alt="" height="198px"
+                                    width="219px"></div>
+                            <div id="soupname-2" class="menuname">餛飩湯</div>
+                        </div>
+                        <div class="menublock">
+                            <div id="soup-3" class="menublockpic"><img src="./final pic/菜頭湯.png" alt="" height="198px"
+                                    width="219px"></div>
+                            <div id="soupname-3" class="menuname">菜頭湯</div>
+                        </div>
+                    </div>
+
+                    <div id="tab2" class="tabs-panel">
+                        <div class="menublock">
+                            <div id="veg-1" class="menublockpic"><img src="./final pic/滷味.png" alt="" height="198px"
+                                    width="219px"></div>
+                            <div id="vegname-1" class="menuname">滷味</div>
+                        </div>
+                        <div class="menublock">
+                            <div id="veg-2" class="menublockpic"><img src="./final pic/燙青菜.png" alt="" height="198px"
+                                    width="219px"></div>
+                            <div id="vegname-2" class="menuname">燙青菜</div>
+                        </div>
+                        <div class="menublock">
+                            <div id="veg-3" class="menublockpic"><img src="./final pic/涼拌黃瓜.png" alt="" height="198px"
+                                    width="219px"></div>
+                            <div id="vegname-3" class="menuname">涼拌黃瓜</div>
+                        </div>
+                    </div>
+
+                    <div id="tab3" class="tabs-panel">
+                        <div class="menublock">
+                            <div id="drink-1" class="menublockpic"><img src="./final pic/可樂.png" alt="" height="198px"
+                                    width="219px"></div>
+                            <div id="drinkname-1" class="menuname">可樂</div>
+                        </div>
+                        <div class="menublock">
+                            <div id="drink-2" class="menublockpic"><img src="./final pic/紅茶.png" alt="" height="198px"
+                                    width="219px"></div>
+                            <div id="drinkname-2" class="menuname">紅茶</div>
+                        </div>
+                        <div class="menublock">
+                            <div id="drink-3" class="menublockpic"><img src="./final pic/啤酒.png" alt="" height="198px"
+                                    width="219px"></div>
+                            <div id="drinkname-3" class="menuname">啤酒</div>
+                        </div>
+                    </div>
+                </div>
+            </div> </div>
+                <div class="meals-tags ipad">
+                    <!--菜單頁籤-->
             <div id="js-tabs" style="width:auto">
 
                 <div id="tabs-nav">
@@ -900,98 +1605,90 @@
                     <a href="#tab2" onclick="jsTabs(event,'tab2');return false" class="tabs-menu">小菜</a>
                     <a href="#tab3" onclick="jsTabs(event,'tab3');return false" class="tabs-menu">飲料</a>
                 </div>
-
-                <div class="tabs-container">
+                <div class="tabs-container ipad">
                     <div id="tab0" class="tabs-panel" style="display:block">
                         <div class="menublock">
-                            <div id="beefnoodle-1" class="menublockpic"><img src="/final pic/紅燒.png" alt=""
-                                    height="198px" width="219px"></div>
+                            <div id="beefnoodle-1" class="menublockpic"><img src="./final pic/紅燒.png" alt=""
+                                    height="130px" width="145px"></div>
                             <div id="beefname-1" class="menuname">紅燒</div>
                         </div>
                         <div class="menublock">
-                            <div id="beefnoodle-2" class="menublockpic"><img src="/final pic/清燉.png" alt=""
-                                    height="198px" width="219px"></div>
+                            <div id="beefnoodle-2" class="menublockpic"><img src="./final pic/清燉.png" alt=""
+                                height="130px" width="145px"></div>
                             <div id="beefname-2" class="menuname">清燉</div>
                         </div>
                         <div class="menublock">
-                            <div id="beefnoodle-3" class="menublockpic"><img src="/final pic/麻辣.png" alt=""
-                                    height="198px" width="219px"></div>
+                            <div id="beefnoodle-3" class="menublockpic"><img src="./final pic/麻辣.png" alt=""
+                                height="130px" width="145px"></div>
                             <div id="beefname-3" class="menuname">麻辣</div>
                         </div>
                         <div class="menublock">
-                            <div id="beefnoodle-4" class="menublockpic"><img src="/final pic/乾拌.png" alt=""
-                                    height="198px" width="219px"></div>
+                            <div id="beefnoodle-4" class="menublockpic"><img src="./final pic/乾拌.png" alt=""
+                                height="130px" width="145px"></div>
                             <div id="beefname-4" class="menuname">乾拌</div>
                         </div>
                     </div>
 
                     <div id="tab1" class="tabs-panel">
                         <div class="menublock">
-                            <div id="soup-1" class="menublockpic"><img src="/final pic/味增湯.png" alt="" height="198px"
-                                    width="219px"></div>
+                            <div id="soup-1" class="menublockpic"><img src="./final pic/味增湯.png" alt="" height="130px" width="145px"></div>
                             <div id="soupname-1" class="menuname">味增湯</div>
                         </div>
                         <div class="menublock">
-                            <div id="soup-2" class="menublockpic"><img src="/final pic/餛飩湯.png" alt="" height="198px"
-                                    width="219px"></div>
+                            <div id="soup-2" class="menublockpic"><img src="./final pic/餛飩湯.png" alt="" height="130px" width="145px"></div>
                             <div id="soupname-2" class="menuname">餛飩湯</div>
                         </div>
                         <div class="menublock">
-                            <div id="soup-3" class="menublockpic"><img src="/final pic/菜頭湯.png" alt="" height="198px"
-                                    width="219px"></div>
+                            <div id="soup-3" class="menublockpic"><img src="./final pic/菜頭湯.png" alt="" height="130px" width="145px"></div>
                             <div id="soupname-3" class="menuname">菜頭湯</div>
                         </div>
                     </div>
 
                     <div id="tab2" class="tabs-panel">
                         <div class="menublock">
-                            <div id="veg-1" class="menublockpic"><img src="/final pic/滷味.png" alt="" height="198px"
-                                    width="219px"></div>
+                            <div id="veg-1" class="menublockpic"><img src="./final pic/滷味.png" alt="" height="130px" width="145px"></div>
                             <div id="vegname-1" class="menuname">滷味</div>
                         </div>
                         <div class="menublock">
-                            <div id="veg-2" class="menublockpic"><img src="/final pic/燙青菜.png" alt="" height="198px"
-                                    width="219px"></div>
+                            <div id="veg-2" class="menublockpic"><img src="./final pic/燙青菜.png" alt="" height="130px" width="145px"></div>
                             <div id="vegname-2" class="menuname">燙青菜</div>
                         </div>
                         <div class="menublock">
-                            <div id="veg-3" class="menublockpic"><img src="/final pic/涼拌黃瓜.png" alt="" height="198px"
-                                    width="219px"></div>
+                            <div id="veg-3" class="menublockpic"><img src="./final pic/涼拌黃瓜.png" alt="" height="130px" width="145px"></div>
                             <div id="vegname-3" class="menuname">涼拌黃瓜</div>
                         </div>
                     </div>
 
                     <div id="tab3" class="tabs-panel">
                         <div class="menublock">
-                            <div id="drink-1" class="menublockpic"><img src="/final pic/可樂.png" alt="" height="198px"
-                                    width="219px"></div>
+                            <div id="drink-1" class="menublockpic"><img src="./final pic/可樂.png" alt="" height="130px" width="145px"></div>
                             <div id="drinkname-1" class="menuname">可樂</div>
                         </div>
                         <div class="menublock">
-                            <div id="drink-2" class="menublockpic"><img src="/final pic/紅茶.png" alt="" height="198px"
-                                    width="219px"></div>
+                            <div id="drink-2" class="menublockpic"><img src="./final pic/紅茶.png" alt="" height="130px" width="145px"></div>
                             <div id="drinkname-2" class="menuname">紅茶</div>
                         </div>
                         <div class="menublock">
-                            <div id="drink-3" class="menublockpic"><img src="/final pic/啤酒.png" alt="" height="198px"
-                                    width="219px"></div>
+                            <div id="drink-3" class="menublockpic"><img src="./final pic/啤酒.png" alt="" height="130px" width="145px"></div>
                             <div id="drinkname-3" class="menuname">啤酒</div>
                         </div>
                     </div>
 
                 </div>
             </div>
-        </div>
+        </div></div>
 
-    </div>
+   
     <div class="ingr-fullpage">
         <div id="ingr" class="content-ingr">食材特色</div>
-<!--食材特色-->
-        <div class="ingr-container-top" >
+        <!--食材特色-->
+        <div class="ingr-container-top">
             <div class="ingr-box" data-aos="fade-up-right" data-aos-duration="2000">
                 <div class="ingr-pic-1">
                     <div class="mask">
-                        <div class="ingr-content-1">經典的紅燒腱心牛肉麵，一頭牛只能取出約5碗份量的牛腱心，是整頭牛中，牛肉與筋分布最均勻的部位，經過長時間的燉煮，牛腱心更能表現出其價值，肉質嫩膠質豐富。老陳堅持絕不以潤精來增加肉類的柔軟度，以24小時不停火的墩煮方式，來達到肉類的柔、嫩、軟度，再搭配蔥、薑、蒜等材料做提味。其中牛肉燉煮更長達4~5小時，直到呈現晶瑩焦糖色，軟嫩而保有嚼勁。</div>
+                        <div class="ingr-content-1">
+                            經典的紅燒腱心牛肉麵，一頭牛只能取出約5碗份量的牛腱心，是整頭牛中，牛肉與筋分布最均勻的部位，經過長時間的燉煮，牛腱心更能表現出其價值，肉質嫩膠質豐富。老陳堅持絕不以潤精來增加肉類的柔軟度，以24小時不停火的墩煮方式，來達到肉類的柔、嫩、軟度，再搭配蔥、薑、蒜等材料做提味。其中牛肉燉煮更長達4~5小時，直到呈現晶瑩焦糖色，軟嫩而保有嚼勁。
+                        </div>
                     </div>
                 </div>
                 <div id="inge-n-1" class="ingr-name">牛肉</div>
@@ -1000,7 +1697,8 @@
                 <div class="ingr-pic-2">
                     <div class="mask">
                         <div class="ingr-content-2">紅燒: 獨門二十三種香辛料經過長時間繁瑣工序，先用牛大骨來製作，加水加滷包，使湯頭能呈現出更多層次，也更濃郁好喝。
-                            <p>清燉: 湯頭是由蔬菜牛骨湯（採用俄羅斯羅宋湯的製法），外加牛腱肉（百餘顆牛腱）的精華共同組成，所以湯頭韻味濃厚層次分明，口感滑順，並保有牛肉的鮮甜，香氣十足。</p></div>
+                            <p>清燉: 湯頭是由蔬菜牛骨湯（採用俄羅斯羅宋湯的製法），外加牛腱肉（百餘顆牛腱）的精華共同組成，所以湯頭韻味濃厚層次分明，口感滑順，並保有牛肉的鮮甜，香氣十足。</p>
+                        </div>
                     </div>
                 </div>
                 <div id="inge-n-2" class="ingr-name">湯頭</div>
@@ -1010,7 +1708,9 @@
             <div class="ingr-box">
                 <div class="ingr-pic-3">
                     <div class="mask">
-                        <div class="ingr-content-3">以手工將麵粉揉成麵糰後碾平，再將麵皮摺疊以刀切成細條。功夫到家的製麵師傳做出來的麵條均均，寬度和厚度都一樣，當然吃起來也會特別不一樣。製作麵條所使用的水也是決定麵條好壞的關鍵，水質愈純淨甘美，麵質愈上品。老陳牛肉麵店有自己的製麵秘方，這些獨特的配料不僅增加麵條的味道，還有增加韌度的功能。最適合喜歡嚼勁不要太強的朋友。</div>
+                        <div class="ingr-content-3">
+                            以手工將麵粉揉成麵糰後碾平，再將麵皮摺疊以刀切成細條。功夫到家的製麵師傳做出來的麵條均均，寬度和厚度都一樣，當然吃起來也會特別不一樣。製作麵條所使用的水也是決定麵條好壞的關鍵，水質愈純淨甘美，麵質愈上品。老陳牛肉麵店有自己的製麵秘方，這些獨特的配料不僅增加麵條的味道，還有增加韌度的功能。最適合喜歡嚼勁不要太強的朋友。
+                        </div>
                     </div>
                 </div>
                 <div id="inge-n-3" class="ingr-name">麵條</div>
@@ -1018,84 +1718,228 @@
             <div class="ingr-box" data-aos="fade-up-left" data-aos-duration="2000">
                 <div class="ingr-pic-4">
                     <div class="mask">
-                        <div class="ingr-content-4">酸菜的製作通則在於不能過度搶味，因為成本上的考量，不少店家都是整條酸菜連梗帶葉一起用，為了口感要好，老陳牛肉麵只取酸菜梗的部分製作，脆度佳也不會過酸。只要準備一鍋熱水，將切好的酸菜梗煮約5分鐘瀝乾，直接加上糖或少許鹽巴，攪拌過後就很好吃。</div>
+                        <div class="ingr-content-4">
+                            酸菜的製作通則在於不能過度搶味，因為成本上的考量，不少店家都是整條酸菜連梗帶葉一起用，為了口感要好，老陳牛肉麵只取酸菜梗的部分製作，脆度佳也不會過酸。只要準備一鍋熱水，將切好的酸菜梗煮約5分鐘瀝乾，直接加上糖或少許鹽巴，攪拌過後就很好吃。
+                        </div>
                     </div>
                 </div>
                 <div id="inge-n-4" class="ingr-name">酸菜</div>
             </div>
         </div>
     </div>
+    <!--料理達人-->
     <div class="chef-fullpage">
         <div id="chef" class="content-chef">料理達人</div>
         <div class="chef-container">
-    <div class="chef-pic-1" data-aos="fade-up" data-aos-duration="1000"></div>
-    <div class="chef-pic-2" data-aos="fade-up" data-aos-duration="1000"></div>
-    <div class="chef-intro" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="7000"></div>
-    <div class="chef-record" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="20000"></div>
-</div>
-</div>
-<div class="news-fullpage">
-    <div id="news" class="content-news">最新消息</div>
-<div class="news-container">
-    <div class="news-his">
-        <div class="news-his-line"></div>
-        
-            <div class="news-his-words-1"><p style="font-size:14px; color:gray;">2019-12-20</p><a href=""><span style="font-size:18px; color:black;">慶祝老陳牛肉麵再次奪冠，牛肉麵
-                95折</span></a></div>
-            <div class="news-his-words-2"><p style="font-size:14px; color:gray;">2019-11-21</p><a href=""><span style="font-size:18px; color:black;">十二月店休公告</span></a></div>
-            <div class="news-his-words-3"><p style="font-size:14px; color:gray;">2019-11-12</p><a href=""><span style="font-size:18px; color:black;">新品上市!
-                「乾拌牛肉麵」滿足老饕的喜好!</span></a></div>
-            <div class="news-his-words-4"><p style="font-size:14px; color:gray;">2019-10-15</p><a href=""><span style="font-size:18px; color:black;">十一月店休公告</span></a></div>
-            <div class="news-his-words-5"><p style="font-size:14px; color:gray;">2019-01-05</p><a href=""><span style="font-size:18px; color:black;">南部朋友有福了!高雄分店開幕!!</span></a></div>
-      
-    </div>
-    <div class="news-vedio">
-        <div id="news-vedio-container-1" class="news-vedio-container">
-            <div class="news-vedio-youtobe"><iframe width="224px" height="158px" src="https://www.youtube.com/embed/Zp-PtdchtXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="news-vedio-name">三立新聞台報導</div>
-        </div>
-        <div id="news-vedio-container-2" class="news-vedio-container">
-            <div class="news-vedio-youtobe"><iframe width="224px" height="158px" src="https://www.youtube.com/embed/K4DRARgbPUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="news-vedio-name">食尚玩家節目到訪</div>
-        </div>
-        <div id="news-vedio-container-3" class="news-vedio-container">
-            <div class="news-vedio-youtobe"><iframe width="224px" height="158px" src="https://www.youtube.com/embed/yLQoGfiW9KA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="news-vedio-name">美國CNN報導</div>
+            <div class="chef-pic-1" data-aos="fade-up" data-aos-duration="1000"></div>
+            <div class="chef-pic-2" data-aos="fade-up" data-aos-duration="1000"></div>
+            <div class="chef-intro" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="7000"></div>
+            <div class="chef-record" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="20000"></div>
         </div>
     </div>
-</div>
-</div>
-<!--交通位置-->
-<div class="location-fullpage">
-    <div id="location" class="content-location">交通位置</div>
-    <div class="location-container">
-         <div class="box-location">
-             <div class="location-info">
-                 <div id=location-1 class="location-info-pic"></div>
-                 <div class="location-info-name"></div>
-             </div>
-             <div class="location-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.6519952398817!2d120.6365317154361!3d24.148856679353333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693dc1a27985b3%3A0x3ec5ace26190b41d!2zNDA45Y-w5Lit5biC5Y2X5bGv5Y2A5aSn5a-M6KGXMTY46Jmf!5e0!3m2!1szh-TW!2stw!4v1576632005562!5m2!1szh-TW!2stw" width="570" height="530" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
-         </div>
-         <div class="box-location">
-            <div class="location-info">
-                <div id=location-2 class="location-info-pic"></div>
-                 <div class="location-info-name"></div>
-            </div>
-            <div class="location-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.6221575029504!2d121.43039031544659!3d25.012951845287812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a62a6a0007cf%3A0x7eb64d736324f8f9!2z5LiA6Lev55m86ZuG6LKo57ay!5e0!3m2!1szh-TW!2stw!4v1576634336474!5m2!1szh-TW!2stw" width="570" height="530" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
-         </div>
-         <div class="box-location">
-            <div class="location-info">
-                <div id=location-3 class="location-info-pic"></div>
-                 <div class="location-info-name"></div>
-            </div>
-            <div class="location-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14743.647573288332!2d120.3865570389351!3d22.50748863918467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3471e271891aa6f3%3A0x9332211b41500a5f!2z57aT5r-f6YOo5bel5qWt5bGA5p6X5ZyS5bel5qWt5Y2A5pyN5YuZ5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1576634599276!5m2!1szh-TW!2stw" width="570" height="530" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
-         </div>
+    <!--最新消息-->
+    <div class="news-fullpage">
+        <div id="news" class="content-news">最新消息</div>
+        <div class="news-container">
+            <div class="news-his">
+                <div class="news-his-line"></div>
 
-    </div>
-<!--popout window-->
+                <div class="news-his-words-1">
+                    <p style="font-size:14px; color:gray;">2019-12-20</p><a href=""><span
+                            style="font-size:18px; color:black;">慶祝老陳牛肉麵再次奪冠，牛肉麵
+                            95折</span></a>
+                </div>
+                <div class="news-his-words-2">
+                    <p style="font-size:14px; color:gray;">2019-11-21</p><a href=""><span
+                            style="font-size:18px; color:black;">十二月店休公告</span></a>
+                </div>
+                <div class="news-his-words-3">
+                    <p style="font-size:14px; color:gray;">2019-11-12</p><a href=""><span
+                            style="font-size:18px; color:black;">新品上市!
+                            「乾拌牛肉麵」滿足老饕的喜好!</span></a>
+                </div>
+                <div class="news-his-words-4">
+                    <p style="font-size:14px; color:gray;">2019-10-15</p><a href=""><span
+                            style="font-size:18px; color:black;">十一月店休公告</span></a>
+                </div>
+                <div class="news-his-words-5">
+                    <p style="font-size:14px; color:gray;">2019-01-05</p><a href=""><span
+                            style="font-size:18px; color:black;">南部朋友有福了!高雄分店開幕!!</span></a>
+                </div>
 
- <!--popout window-->
-</div>
+            </div>
+            <div class="news-vedio">
+                <div id="news-vedio-container-1" class="news-vedio-container">
+                    <div class="news-vedio-youtobe"><iframe width="224px" height="158px"
+                            src="https://www.youtube.com/embed/Zp-PtdchtXA" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="news-vedio-name">三立新聞台報導</div>
+                </div>
+                <div id="news-vedio-container-2" class="news-vedio-container">
+                    <div class="news-vedio-youtobe"><iframe width="224px" height="158px"
+                            src="https://www.youtube.com/embed/K4DRARgbPUQ" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="news-vedio-name">食尚玩家節目到訪</div>
+                </div>
+                <div id="news-vedio-container-3" class="news-vedio-container">
+                    <div class="news-vedio-youtobe"><iframe width="224px" height="158px"
+                            src="https://www.youtube.com/embed/yLQoGfiW9KA" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="news-vedio-name">美國CNN報導</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--交通位置-->
+    <div class="location-fullpage">
+        <div id="location" class="content-location">交通位置</div>
+        <div class="location-container">
+            <div class="box-location">
+                <div class="location-info">
+                    <div class="location-info-pic1"></div>
+                    <div class="location-info-name">
+                        <p>總店-台中店<br />台中市南屯區大富大貴街168號<br />營業時間: 11:30~21:00<br />電話: 04-1234567</p>
+                    </div>
+                    <a href="https://www.google.com.tw/maps/@24.142035,120.6227396,15z"><div class="google-map ipad">Google Map</div></a>
+                </div>
+                <div class="location-map"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.6519952398817!2d120.6365317154361!3d24.148856679353333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693dc1a27985b3%3A0x3ec5ace26190b41d!2zNDA45Y-w5Lit5biC5Y2X5bGv5Y2A5aSn5a-M6KGXMTY46Jmf!5e0!3m2!1szh-TW!2stw!4v1576632005562!5m2!1szh-TW!2stw"
+                        width="570" height="530" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+            </div>
+            <div class="box-location">
+                <div class="location-info">
+                    <div class="location-info-pic2"></div>
+                    <div class="location-info-name">
+                        <p>分店-台北店<br />台北市大安區一路發街99號<br />營業時間: 11:30~21:00<br />電話: 02-1234888</p>
+                    </div>
+                    <a href="https://www.google.com.tw/maps/@24.142035,120.6227396,15z"><div class="google-map ipad">Google Map</div></a>
+                </div>
+                <div class="location-map"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.6221575029504!2d121.43039031544659!3d25.012951845287812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a62a6a0007cf%3A0x7eb64d736324f8f9!2z5LiA6Lev55m86ZuG6LKo57ay!5e0!3m2!1szh-TW!2stw!4v1576634336474!5m2!1szh-TW!2stw"
+                        width="570" height="530" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+            </div>
+            <div class="box-location">
+                <div class="location-info">
+                    <div class="location-info-pic3"></div>
+                    <div class="location-info-name">
+                        <p>分店-高雄店<br />高雄市林園區響叮噹路1000號<br />營業時間: 11:30~21:00<br />電話: 07-0800168</p>
+                    </div>
+                    <a href="https://www.google.com.tw/maps/@24.142035,120.6227396,15z"><div class="google-map ipad">Google Map</div></a>
+                </div>
+                <div class="location-map"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14743.647573288332!2d120.3865570389351!3d22.50748863918467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3471e271891aa6f3%3A0x9332211b41500a5f!2z57aT5r-f6YOo5bel5qWt5bGA5p6X5ZyS5bel5qWt5Y2A5pyN5YuZ5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1576634599276!5m2!1szh-TW!2stw"
+                        width="570" height="530" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+            </div>
+
+        </div>
+    </div>
+    <!--網路訂位-->
+    <div class="res-fullpage">
+        <div id="res" class="content-res">網路訂位</div>
+        <div class="res-container">
+            <div class="res-text">
+                <h4><br />
+                    <b style="color:red;">&nbsp;用餐須知</b>
+                </h4>
+                <p>&nbsp;&nbsp;※ 線上訂位開放 14 天的訂位。 </p>
+                <p>&nbsp;&nbsp;※ 訂位人數 10 位以上請向餐廳電話訂位</p>
+                <p>&nbsp;&nbsp;※ 每餐期訂位保留 10 分鐘（增減人數請事先通知）</p>
+                <p>&nbsp;&nbsp;※ 假日客人眾多，午餐晚餐皆分為 2 段用餐 (2 選 1)</p>
+                <p>&nbsp;&nbsp;※ 午餐 11:30-12:45 / 13:00-14:45 </p>
+                <p>&nbsp;&nbsp;※ 晚餐 17:30-19:15 / 19:30-21:00 </p>
+            </div>
+            <div class="res-box">
+                <div class="reservation_boxl">
+                    <p>
+                        <b>&nbsp;姓名
+                            <input class="input1" type="text">
+                        </b>
+                    </p>
+                    <p>
+                        <b>&nbsp;電話
+                            <input class="input1" type="tel">
+                        </b>
+                    </p>
+                    <p>
+                        <b>&nbsp;人數
+                            <input class="input2" type="text">
+                        </b>
+                    </p>
+                </div>
+                <div class="reservation_boxr">
+                    <p>
+                        <b>選擇分店
+                            <input class="input" type="text">
+                        </b>
+                    </p>
+                    <p>
+                        <b>預約日期
+                            <input class="input" type="text">
+                        </b>
+                    </p>
+                    <p>
+                        <b>預約時段
+                            <input class="input" type="text">
+                        </b>
+                    </p>
+                    <p>
+                        <b>電子信箱
+                            <input class="input" type="text">
+                        </b>
+                    </p>
+                    <a href="">
+                        <div class="reservation_button1">確認送出</div>
+                    </a>
+
+                    <!--<div class="reservation_button2">清除重寫</div>-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--加盟專區-->
+    <div class="join-fullpage">
+        <div id="join" class="content-join">加盟專區</div>
+        <div class="join-container">
+            <div class="join-flow"></div>
+            <div class="join-education">
+                <div class="join-education-text">
+                    <h4><br />
+                        <b style="color:red;">&nbsp;教育訓練</b>
+                    </h4>
+                    <b>&nbsp;&nbsp;&nbsp;&nbsp;老陳牛肉麵規劃出嚴謹的兩至三週教育
+                        訓練課程，把一個成功的店該學習的東西，透過專業的店輔導主管，將技術100%轉移給加盟店主。</b>
+                    <p></p><b>。完善的創業課程</b><br />
+                    <b>&nbsp;&nbsp;&nbsp;&nbsp;除了幫加盟店打造出美觀店面及各式餐點製作教學之外，還額外提供給所有加盟店完善的開店後輔導。</b>
+                    <p></p><b>。輔導員到店輔導</b><br />
+                    <b>&nbsp;&nbsp;&nbsp;&nbsp;特別成立營運管理部門，每月都安排專業的區輔導來幫各店審視店面營運狀況，讓所有加盟店都能順利的邁向成功賺錢的道路。</b><br />
+                    <b style="color:red;">&nbsp;加盟專線: 0800-084007</b>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--footer-->
+    <div class="footer">
+        <div class="media-link">
+            <a href="">
+                <div class="media-link-1"></div>
+            </a>
+            <a href="">
+                <div class="media-link-2"></div>
+            </a>
+            <a href="">
+                <div class="media-link-3"></div>
+            </a>
+        </div>
+        <div class="copyright">Copyright © 2019 inline Ltd. All Rights Reserved</div>
+    </div>
+    <!--popout window-->
+
+    <!--popout window-->
     <!--Javascript-->
     <script src="https://unpkg.com/swiper/js/swiper.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -1129,7 +1973,7 @@
             });
         });
 /*popout window*/
-        
+
     </script>
 </body>
 
